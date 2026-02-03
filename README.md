@@ -5,7 +5,7 @@ When upgrading older locomotives from analog to digital DCC operation through a 
 Particularly in the case of steam engine models, this requires adding wires from the tender to the front of the locomotives. 
 This prevents the model from being used in the normal way where tender and loc can be seperated by the coupling mechanism. Also, the wires could be visible from outside.
 
-The Loklight project undertakes to provide the hardware design for a DCC controlled LED PCB that can be used as a drop-in replacement for glowbulbs in the commonly used sizes.
+The Loklight project undertakes to provide the hardware and software for a DCC controlled LED PCB that can be used as a drop-in replacement for glowbulbs in the commonly used sizes.
 
 By removing the LEDs, the Loklight PCB can also be used for custom loads. In this case the load will be connected to VCC and an open-collector BJT connected to 0V. 
 The designed is hardware limited to currents up to 15mA. There are two LEDs, and therefore two loads of up to 15mA are possible.
