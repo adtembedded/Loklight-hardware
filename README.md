@@ -10,7 +10,7 @@ This project undertakes to provide the hardware design for a DCC controlled LED 
 By removing the LEDs, the Loklight PCB can also be used for custom loads. In this case the load will be connected to VCC and an open-collector BJT connected to 0V. 
 The designed is hardware limited to currents up to 15mA. There are two LEDs, and therefore two loads of up to 15mA are possible.
 
-To use this project for non-commercial (i.e. hobby) purposes, perform the following steps. Please reach out to me to discuss potential commercial use.
+Steps to use the project:
 
 1. Acquire the hardware
 Either contact me or have the design produced at a vendor of your choosing. The design only uses JCPCB / LCSC indexed components.
@@ -38,3 +38,5 @@ Set the CVs are required (loc address, min and max brightness, etc) and test pro
 
 7. Let me know
 I'd love to know if you have used this project!
+
+This work has been made available to you for non-commercial (i.e. hobby) purposes only, under the Polyform license. Please reach out to me to discuss potential commercial use.
