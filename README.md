@@ -26,11 +26,8 @@ Flash the required CV settings (refer to software project) and verify function k
 4. Modify the hardware
 First, use copper or enamelled wire (dia 0.3 - 0.5mm) and solder it onto the DCC inputs. One tip must be at the far end of the PCB, the other at the side.
 Optimize the wire location and length either for MS4 retention or E5.5 thread-engagement in the socket. 
-
 Optionally remove the LEDs and at custom outputs, using the LED pads for wire connection to the PCB.
-Optionally test the hardware again.
-
-Remove the programming connection by using a Dremel or similar tool to sever the breakout section. Be careful to remove the via breakouts (almost) completely without damaging the internal PCB traces.
+Optionally test the hardware again. Remove the programming connection by using a Dremel or similar tool to sever the breakout section. Be careful to remove the via breakouts (almost) completely without damaging the internal PCB traces.
 Finally, protect components if required from short circuiting against metal parts. For E5.5 sockets, the components should clear the socket, but a small wrapper will guarantee this.
  
 5. Assemble the hardware
