@@ -10,7 +10,7 @@ The Loklight project undertakes to provide the hardware and software for a DCC c
 By removing the LEDs, the Loklight PCB can also be used for custom loads. In this case the load will be connected to VCC and an open-collector BJT connected to 0V. 
 The designed is hardware limited to currents up to 15mA. There are two LEDs, and therefore two loads of up to 15mA are possible.
 
-Steps to use the project:
+# Steps to use the project
 
 1. Acquire the hardware. 
 Either contact me or have the design produced at a vendor of your choosing. The design only uses JCPCB / LCSC indexed components.
@@ -39,4 +39,11 @@ Set the CVs are required (loc address, min and max brightness, etc) and test pro
 7. Let me know.
 I'd love to know if you have used this project!
 
-This work has been made available to you for non-commercial (i.e. hobby) purposes only, under the Polyform license. Please reach out to me to discuss potential commercial use.
+This work has been made available to you for non-commercial (i.e. hobby) purposes only, under the Polyform license. Please reach out to me 
+- to obtain the KiCad source files
+- to obtain 3d print adapter STLs for Roco or Piko locs
+- to discuss potential commercial use
+
+# Known issues & improvements
+- Issue - While using on analog DC powered tracks (not the intended use-case), the onboard power supply lacks capacity to filter the voltage swings of the rectified transformer output. Also, the sensing circuit impedance may have to be optimized to correctly detect direction for low track voltages.
+- Improvement - Ideally the MCU is flashed with a dedicated tools through ICP on a testpad or through the track inputs. This eliminates the need for the add-on SWD programming breakout part.
